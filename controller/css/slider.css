@@ -1,0 +1,42 @@
+.position{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.slider{
+    background-image: url(../image/953699.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    animation: animate 10s infinite;
+
+}
+
+
+@keyframes animate{
+    20%{
+        background-image: url(../image/17737.jpg);
+        background-size: cover;
+
+    }
+
+    40%{
+        background-image: url(../image/futuristic-illustration-wallpaper-3000x2000_42.jpg);
+        background-size: cover;
+
+    }
+
+    60%{
+        background-image: url(../image/img1.wallspic.com-motocicleta-el_deporte_de_la_bicicleta-motociclismo-3840x2160.jpg);
+        background-size: cover;
+    }
+
+    80%{
+        background-image: url(../image/4486.webp);
+        background-size: cover;
+    }
+}
